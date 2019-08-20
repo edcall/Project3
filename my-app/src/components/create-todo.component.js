@@ -78,13 +78,14 @@ export default class CreateTodo extends Component {
                                 />
                     </div>
                     <div className="form-group">
-                        <label>Responsible: </label>
+                        <label>Price: </label>
                         <input  type="text"
                                 className="form-control"
                                 value={this.state.todo_responsible}
                                 onChange={this.onChangeTodoResponsible}
                                 />
                     </div>
+                    <h3>Sale Priority</h3>
                     <div className="form-group">
                         <div className="form-check form-check-inline">
                             <input  className="form-check-input"
@@ -96,8 +97,9 @@ export default class CreateTodo extends Component {
                                     onChange={this.onChangeTodoPriority}
                                     />
                             <label className="form-check-label">Low</label>
-                        </div>
+                        </div>                        
                         <div className="form-check form-check-inline">
+                            
                             <input  className="form-check-input"
                                     type="radio"
                                     name="priorityOptions"
@@ -121,7 +123,7 @@ export default class CreateTodo extends Component {
                         </div>
                     </div>
                     <div className="form-group">
-                        <input type="submit" value="Create Todo" className="btn btn-primary" />
+                        <input type="submit" value="Create Item" className="btn btn-primary" />
                     </div>
                 </form>
             </div>
