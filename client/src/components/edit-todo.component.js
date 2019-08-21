@@ -87,7 +87,7 @@ export default class EditTodo extends Component {
                                 />
                     </div>
                     <div className="form-group">
-                        <label>Responsible: </label>
+                        <label>Price: </label>
                         <input  type="text"
                                 className="form-control"
                                 value={this.state.todo_responsible}
@@ -143,7 +143,7 @@ export default class EditTodo extends Component {
                         </div>
                         <br/>
                         <div className="form-group">
-                            <input type="submit" value="Update Todo" className="btn btn-primary" />
+                            <input type="submit" value="Update Item" className="btn btn-primary" />
                         </div>
                     </div>
                 </form>
